@@ -11,36 +11,37 @@
 @implementation GameScene
 
 -(void)didMoveToView:(SKView *)view {
-    /* Setup your scene here */
-    SKLabelNode *myLabel = [SKLabelNode labelNodeWithFontNamed:@"Chalkduster"];
-    
-    myLabel.text = @"Hello, World!";
-    myLabel.fontSize = 45;
-    myLabel.position = CGPointMake(CGRectGetMidX(self.frame),
-                                   CGRectGetMidY(self.frame));
-    
-    [self addChild:myLabel];
+    self.c = [[Controls alloc] initWithMore];
+    self.OBJMAN = [[objManager alloc] init];
 }
 
--(void)mouseDown:(NSEvent *)theEvent {
-     /* Called when a mouse click occurs */
-    
-    CGPoint location = [theEvent locationInNode:self];
-    
-    SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship"];
-    
-    sprite.position = location;
-    sprite.scale = 0.5;
-    
-    SKAction *action = [SKAction rotateByAngle:M_PI duration:1];
-    
-    [sprite runAction:[SKAction repeatActionForever:action]];
-    
-    [self addChild:sprite];
+-(void)keyDown:(NSEvent *)theEvent{
+    [self.c keyPressedWithEvent:theEvent];
+}
+
+-(void)keyUp:(NSEvent *)theEvent{
+    [self.c keyReleasedWithEvent:theEvent];
 }
 
 -(void)update:(CFTimeInterval)currentTime {
-    /* Called before each frame is rendered */
+    [self.OBJMAN updateWithControlsHeld: self.c.controlsHeld controlsPressed:self.c.controlsPressed];
+    [self.c resetControls];
+    [self.c checkPressed];
+    [self setupDrawWithInstructions: [self.OBJMAN draw]];
 }
+
+-(void) setupDrawWithInstructions: (NSArray *)instru{
+    [self removeAllChildren];
+    SpriteCreator *sc = [[SpriteCreator alloc] init];
+    for (int i = 0; i < instru.count; i++){
+        if (((NSArray *)instru[i]).count == 8){
+            [self addChild: [sc createNodeWithRed:[((NSNumber *)instru[i][0]) intValue] green:[((NSNumber *)instru[i][1]) intValue] blue:[((NSNumber *)instru[i][2]) intValue] alpha:[((NSNumber *)instru[i][3]) intValue] x:[((NSNumber *)instru[i][4]) floatValue] y:[((NSNumber *)instru[i][5]) floatValue] w:[((NSNumber *)instru[i][6]) floatValue] h:[((NSNumber *)instru[i][7]) floatValue] view:self.view]];
+        }
+        else if (((NSArray *)instru[i]).count == 9){
+            [self addChild: [sc createNodeWithRed:[((NSNumber *)instru[i][0]) intValue] green:[((NSNumber *)instru[i][1]) intValue] blue:[((NSNumber *)instru[i][2]) intValue] alpha:[((NSNumber *)instru[i][3]) intValue] x:[((NSNumber *)instru[i][4]) floatValue] y:[((NSNumber *)instru[i][5]) floatValue] w:[((NSNumber *)instru[i][6]) floatValue]text:(NSString*)instru[i][7] font:(NSString*)instru[i][8] view:self.view]];
+        }
+    }
+}
+
 
 @end

@@ -10,11 +10,22 @@
 		15B949FC1BC965A6008BF0D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B949FB1BC965A6008BF0D4 /* AppDelegate.m */; };
 		15B949FF1BC965A6008BF0D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B949FE1BC965A6008BF0D4 /* main.m */; };
 		15B94A021BC965A6008BF0D4 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B94A011BC965A6008BF0D4 /* GameScene.m */; };
-		15B94A041BC965A6008BF0D4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 15B94A031BC965A6008BF0D4 /* GameScene.sks */; };
 		15B94A061BC965A6008BF0D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B94A051BC965A6008BF0D4 /* Assets.xcassets */; };
 		15B94A091BC965A6008BF0D4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15B94A071BC965A6008BF0D4 /* MainMenu.xib */; };
 		15B94A141BC965A6008BF0D4 /* LA_LLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B94A131BC965A6008BF0D4 /* LA_LLTests.m */; };
 		15B94A1F1BC965A6008BF0D4 /* LA_LLUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B94A1E1BC965A6008BF0D4 /* LA_LLUITests.m */; };
+		15B94A2F1BC9666D008BF0D4 /* Controls.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B94A2E1BC9666D008BF0D4 /* Controls.m */; settings = {ASSET_TAGS = (); }; };
+		15B94A331BC966DC008BF0D4 /* ObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B94A321BC966DC008BF0D4 /* ObjectManager.m */; settings = {ASSET_TAGS = (); }; };
+		15B94A371BC96766008BF0D4 /* PartyRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B94A361BC96766008BF0D4 /* PartyRoom.m */; settings = {ASSET_TAGS = (); }; };
+		15B94A3C1BC967F7008BF0D4 /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B94A3B1BC967F7008BF0D4 /* Room.m */; settings = {ASSET_TAGS = (); }; };
+		15B94A401BC96CB1008BF0D4 /* Instance.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B94A3F1BC96CB1008BF0D4 /* Instance.m */; settings = {ASSET_TAGS = (); }; };
+		15B94A431BC97085008BF0D4 /* SpriteCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B94A421BC97085008BF0D4 /* SpriteCreator.m */; settings = {ASSET_TAGS = (); }; };
+		15B94A461BC9742F008BF0D4 /* Solid.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B94A451BC9742F008BF0D4 /* Solid.m */; settings = {ASSET_TAGS = (); }; };
+		15D9F5AB1BC979C900E13156 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D9F5AA1BC979C900E13156 /* Player.m */; settings = {ASSET_TAGS = (); }; };
+		15D9F5AF1BC97E0A00E13156 /* NPC.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D9F5AE1BC97E0A00E13156 /* NPC.m */; settings = {ASSET_TAGS = (); }; };
+		15D9F5B21BC9850400E13156 /* Cards.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D9F5B11BC9850400E13156 /* Cards.m */; settings = {ASSET_TAGS = (); }; };
+		15D9F5B51BC9923100E13156 /* Starter.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D9F5B41BC9923100E13156 /* Starter.m */; settings = {ASSET_TAGS = (); }; };
+		15D9F5B81BC99F8A00E13156 /* CPU.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D9F5B71BC99F8A00E13156 /* CPU.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +52,6 @@
 		15B949FE1BC965A6008BF0D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		15B94A001BC965A6008BF0D4 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
 		15B94A011BC965A6008BF0D4 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
-		15B94A031BC965A6008BF0D4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		15B94A051BC965A6008BF0D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15B94A081BC965A6008BF0D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		15B94A0A1BC965A6008BF0D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +61,31 @@
 		15B94A1A1BC965A6008BF0D4 /* LA-LLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LA-LLUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B94A1E1BC965A6008BF0D4 /* LA_LLUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LA_LLUITests.m; sourceTree = "<group>"; };
 		15B94A201BC965A6008BF0D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15B94A2C1BC96611008BF0D4 /* Controls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Controls.h; sourceTree = "<group>"; };
+		15B94A2D1BC9662D008BF0D4 /* ControlsEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlsEnum.h; sourceTree = "<group>"; };
+		15B94A2E1BC9666D008BF0D4 /* Controls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controls.m; sourceTree = "<group>"; };
+		15B94A311BC966C7008BF0D4 /* ObjectManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ObjectManager.h; path = Instances/ObjectManager.h; sourceTree = "<group>"; };
+		15B94A321BC966DC008BF0D4 /* ObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObjectManager.m; path = Instances/ObjectManager.m; sourceTree = "<group>"; };
+		15B94A351BC96748008BF0D4 /* PartyRoom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PartyRoom.h; path = Rooms/PartyRoom.h; sourceTree = "<group>"; };
+		15B94A361BC96766008BF0D4 /* PartyRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PartyRoom.m; path = Rooms/PartyRoom.m; sourceTree = "<group>"; };
+		15B94A3B1BC967F7008BF0D4 /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Room.m; path = Rooms/Room.m; sourceTree = "<group>"; };
+		15B94A3D1BC96811008BF0D4 /* Room.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Room.h; path = Rooms/Room.h; sourceTree = "<group>"; };
+		15B94A3E1BC96C24008BF0D4 /* Instance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Instance.h; path = Instances/Instance.h; sourceTree = "<group>"; };
+		15B94A3F1BC96CB1008BF0D4 /* Instance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Instance.m; path = Instances/Instance.m; sourceTree = "<group>"; };
+		15B94A411BC97026008BF0D4 /* SpriteCreator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpriteCreator.h; sourceTree = "<group>"; };
+		15B94A421BC97085008BF0D4 /* SpriteCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpriteCreator.m; sourceTree = "<group>"; };
+		15B94A441BC9740D008BF0D4 /* Solid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Solid.h; path = Instances/Solid.h; sourceTree = "<group>"; };
+		15B94A451BC9742F008BF0D4 /* Solid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Solid.m; path = Instances/Solid.m; sourceTree = "<group>"; };
+		15B94A471BC977E1008BF0D4 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Player.h; path = Instances/Player.h; sourceTree = "<group>"; };
+		15D9F5AA1BC979C900E13156 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = Instances/Player.m; sourceTree = "<group>"; };
+		15D9F5AD1BC97D8C00E13156 /* NPC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NPC.h; path = Instances/NPC.h; sourceTree = "<group>"; };
+		15D9F5AE1BC97E0A00E13156 /* NPC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NPC.m; path = Instances/NPC.m; sourceTree = "<group>"; };
+		15D9F5B01BC983D900E13156 /* Cards.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Cards.h; path = Instances/Cards.h; sourceTree = "<group>"; };
+		15D9F5B11BC9850400E13156 /* Cards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cards.m; path = Instances/Cards.m; sourceTree = "<group>"; };
+		15D9F5B31BC991C600E13156 /* Starter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Starter.h; path = Instances/Starter.h; sourceTree = "<group>"; };
+		15D9F5B41BC9923100E13156 /* Starter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Starter.m; path = Instances/Starter.m; sourceTree = "<group>"; };
+		15D9F5B61BC99F6300E13156 /* CPU.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CPU.h; path = Instances/CPU.h; sourceTree = "<group>"; };
+		15D9F5B71BC99F8A00E13156 /* CPU.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPU.m; path = Instances/CPU.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +136,21 @@
 		15B949F91BC965A6008BF0D4 /* LA-LL */ = {
 			isa = PBXGroup;
 			children = (
+				15B94A341BC96724008BF0D4 /* Rooms */,
+				15B94A301BC966A6008BF0D4 /* Instances */,
 				15B949FA1BC965A6008BF0D4 /* AppDelegate.h */,
 				15B949FB1BC965A6008BF0D4 /* AppDelegate.m */,
 				15B94A001BC965A6008BF0D4 /* GameScene.h */,
 				15B94A011BC965A6008BF0D4 /* GameScene.m */,
-				15B94A031BC965A6008BF0D4 /* GameScene.sks */,
 				15B94A051BC965A6008BF0D4 /* Assets.xcassets */,
 				15B94A071BC965A6008BF0D4 /* MainMenu.xib */,
 				15B94A0A1BC965A6008BF0D4 /* Info.plist */,
 				15B949FD1BC965A6008BF0D4 /* Supporting Files */,
+				15B94A2C1BC96611008BF0D4 /* Controls.h */,
+				15B94A2D1BC9662D008BF0D4 /* ControlsEnum.h */,
+				15B94A2E1BC9666D008BF0D4 /* Controls.m */,
+				15B94A411BC97026008BF0D4 /* SpriteCreator.h */,
+				15B94A421BC97085008BF0D4 /* SpriteCreator.m */,
 			);
 			path = "LA-LL";
 			sourceTree = "<group>";
@@ -138,6 +179,40 @@
 				15B94A201BC965A6008BF0D4 /* Info.plist */,
 			);
 			path = "LA-LLUITests";
+			sourceTree = "<group>";
+		};
+		15B94A301BC966A6008BF0D4 /* Instances */ = {
+			isa = PBXGroup;
+			children = (
+				15B94A311BC966C7008BF0D4 /* ObjectManager.h */,
+				15B94A321BC966DC008BF0D4 /* ObjectManager.m */,
+				15B94A3E1BC96C24008BF0D4 /* Instance.h */,
+				15B94A3F1BC96CB1008BF0D4 /* Instance.m */,
+				15B94A441BC9740D008BF0D4 /* Solid.h */,
+				15B94A451BC9742F008BF0D4 /* Solid.m */,
+				15B94A471BC977E1008BF0D4 /* Player.h */,
+				15D9F5AA1BC979C900E13156 /* Player.m */,
+				15D9F5AD1BC97D8C00E13156 /* NPC.h */,
+				15D9F5AE1BC97E0A00E13156 /* NPC.m */,
+				15D9F5B01BC983D900E13156 /* Cards.h */,
+				15D9F5B11BC9850400E13156 /* Cards.m */,
+				15D9F5B31BC991C600E13156 /* Starter.h */,
+				15D9F5B41BC9923100E13156 /* Starter.m */,
+				15D9F5B61BC99F6300E13156 /* CPU.h */,
+				15D9F5B71BC99F8A00E13156 /* CPU.m */,
+			);
+			name = Instances;
+			sourceTree = "<group>";
+		};
+		15B94A341BC96724008BF0D4 /* Rooms */ = {
+			isa = PBXGroup;
+			children = (
+				15B94A351BC96748008BF0D4 /* PartyRoom.h */,
+				15B94A361BC96766008BF0D4 /* PartyRoom.m */,
+				15B94A3D1BC96811008BF0D4 /* Room.h */,
+				15B94A3B1BC967F7008BF0D4 /* Room.m */,
+			);
+			name = Rooms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,7 +319,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				15B94A061BC965A6008BF0D4 /* Assets.xcassets in Resources */,
-				15B94A041BC965A6008BF0D4 /* GameScene.sks in Resources */,
 				15B94A091BC965A6008BF0D4 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,7 +345,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				15B949FF1BC965A6008BF0D4 /* main.m in Sources */,
+				15D9F5B51BC9923100E13156 /* Starter.m in Sources */,
+				15B94A371BC96766008BF0D4 /* PartyRoom.m in Sources */,
+				15B94A401BC96CB1008BF0D4 /* Instance.m in Sources */,
+				15B94A431BC97085008BF0D4 /* SpriteCreator.m in Sources */,
+				15B94A2F1BC9666D008BF0D4 /* Controls.m in Sources */,
+				15B94A331BC966DC008BF0D4 /* ObjectManager.m in Sources */,
+				15D9F5AB1BC979C900E13156 /* Player.m in Sources */,
 				15B94A021BC965A6008BF0D4 /* GameScene.m in Sources */,
+				15D9F5B81BC99F8A00E13156 /* CPU.m in Sources */,
+				15B94A461BC9742F008BF0D4 /* Solid.m in Sources */,
+				15D9F5AF1BC97E0A00E13156 /* NPC.m in Sources */,
+				15D9F5B21BC9850400E13156 /* Cards.m in Sources */,
+				15B94A3C1BC967F7008BF0D4 /* Room.m in Sources */,
 				15B949FC1BC965A6008BF0D4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,6 +581,7 @@
 				15B94A251BC965A6008BF0D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15B94A261BC965A6008BF0D4 /* Build configuration list for PBXNativeTarget "LA-LLTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +590,7 @@
 				15B94A281BC965A6008BF0D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15B94A291BC965A6008BF0D4 /* Build configuration list for PBXNativeTarget "LA-LLUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +599,7 @@
 				15B94A2B1BC965A6008BF0D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
